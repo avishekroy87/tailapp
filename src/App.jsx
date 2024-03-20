@@ -1,16 +1,12 @@
-import { useEffect } from 'react';
+import Loadtest from './components/Loadtest';
 import './App.css'
+import { useState } from 'react';
 
 function App() {
-  const size = screen.width;
-
-  useEffect(()=>{
-    
-  },[])
-
+  const[colcode, setColcode] = useState('');
 
   return (
-    <div className="font-light">The screen size is {size}</div>
+    <div className={colcode}><Loadtest bckgrnd={setColcode}/></div>
   )
 }
 

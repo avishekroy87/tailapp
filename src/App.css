@@ -5,6 +5,30 @@
   text-align: center;
 }
 
+#root .red{
+  background-color: red;
+ 
+}
+#root .green{
+  background-color: green;
+  
+}
+#root .blue{
+  background-color: blue;
+  
+}
+#root .yellow{
+  background-color: yellow;
+  
+}
+#root .pink{
+  background-color: pink;
+  
+}
+#root .white{
+  background: none;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +64,7 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
