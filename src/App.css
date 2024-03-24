@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #root .red{
@@ -64,7 +66,20 @@
 .read-the-docs {
   color: #888;
 }
-
+.color_choose{
+  display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 5px;
+    width: auto;
+    height: inherit;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    
+}
 
 
 
