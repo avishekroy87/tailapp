@@ -24,7 +24,8 @@ const BookList = () => {
         event.preventDefault();
         const bookentry = { id: new Date().getDay.toString(), name: newBook }
         dispatch({ type: "ADD", payload: bookentry })
-        setNewBook("")
+        setNewBook("");
+        
     }
     return <>
 
