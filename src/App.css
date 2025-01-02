@@ -81,5 +81,14 @@
     
 }
 
+input{
+  padding: 5px;
+  border: 1px solid red;
+  transition: width 2s;
+}
+input:hover{
+  width: 300px;
+}
+
 
 

@@ -30,6 +30,7 @@ const BookList = () => {
     return <>
 
         <form style={{ border: "1px" }} onSubmit={saveData}>
+            <label>Book name</label>
             <input type="text" value={newBook} onChange={(e) => { setNewBook(e.target.value) }} />
             <button type="submit">Add</button>
         </form>
